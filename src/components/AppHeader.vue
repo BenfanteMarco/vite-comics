@@ -10,7 +10,7 @@ export default {
                 },
                 {
                     label: "Comics",
-                    active: true
+                    active: false
                 },
                 {
                     label: "Movies",
@@ -74,10 +74,13 @@ a {
     text-decoration: none;
     color: black;
     font-weight: 300;
-}
 
-.active {
+    .active,
+    &:hover {
     color: #0083F8;
     border-bottom: 3px solid #0083F8;
+    }
 }
+
+
 </style>
