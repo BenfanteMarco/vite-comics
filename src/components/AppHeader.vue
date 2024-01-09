@@ -50,7 +50,7 @@ export default {
 }
 </script>
 <template lang="">
-    <div>
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -65,7 +65,7 @@ export default {
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 </template>
 <style lang="scss" scoped>
 @use '../styles/generals.scss';

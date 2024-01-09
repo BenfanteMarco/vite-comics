@@ -112,9 +112,7 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/generals.scss';
 
-main{
-    margin: 30px 0;
-}
+
 
 #jumbo {
     background-image: url('../assets/img/jumbotron.jpg');

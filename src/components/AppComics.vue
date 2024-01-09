@@ -14,14 +14,12 @@ export default {
 }
 </script>
 <template lang="">
-    <div>
         <div class="col-2">
-            <div class="thumbnails mt-5 mb-5">
+            <div class="thumbnails mt-5">
                 <img :src="img" :alt="title" class="img-fluid">
                 <p class="text-uppercase">{{title}}</p>
             </div>
         </div>
-    </div>
 </template>
 <style lang="scss" scoped>
 @use '../styles/generals.scss';
@@ -30,6 +28,7 @@ export default {
 
     img {
         width: 100%;
+        height: 300px;
     }
 
     p {
