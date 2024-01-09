@@ -39,7 +39,7 @@ export default {
 }
 </script>
 <template lang="">
-    <div>
+    <footer>
         <section id="summary">
             <div class="container">
                 <div class="row">
@@ -103,7 +103,7 @@ export default {
                 </div>
             </div>
         </section>
-    </div>
+    </footer>
 </template>
 <style lang="scss" scoped>
 @use '../styles/generals.scss';
